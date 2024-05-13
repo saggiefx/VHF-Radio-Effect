@@ -17,18 +17,11 @@ Inspiration for real-time neural network processing was drawn from [RTNeural](ht
 The neural network model included in this project has been trained to learn the distortion characteristics of a VHF radio. It takes the dry voice signal as input and generates a distorted output signal that closely resembles the sound of a VHF radio.
 
 ## Sample Files
-- **Original Input:** 
-  <audio controls>
-    <source src="original.wav" type="audio/wav">
-    Your browser does not support the audio element.
-  </audio>
-  
-- **Processed Output:** 
-  <audio controls>
-    <source src="radiofx.wav" type="audio/wav">
-    Your browser does not support the audio element.
-  </audio>
+- **Original Input:**
+- https://github.com/saggiefx/VHF-Radio-Effect/assets/128510455/f0f02741-d55a-414a-bafe-4d2708297ed6
 
+- **Processed Output:** 
+- https://github.com/saggiefx/VHF-Radio-Effect/assets/128510455/a4e07bdf-8369-4d70-833d-f6e786ad98dc
 
 ## User Interface
 ![User Interface](UI.png)
