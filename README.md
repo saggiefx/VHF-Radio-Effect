@@ -6,17 +6,6 @@ The VHF-Radio-Effect project aims to simulate the distortion characteristics of 
 ## Features
 - Real-time simulation of VHF radio distortion.
 - Trained neural network model for accurate distortion emulation.
-- Implemented in JUCE for cross-platform compatibility.
-
-## Installation
-1. **Clone the repository:**
-    ```
-    git clone https://github.com/your_username/VHF-Radio-Effect.git
-    ```
-
-2. **Open the project in your preferred IDE that supports JUCE.**
-
-3. **Build the project according to the instructions provided in the README file.**
 
 ## Usage
 1. **Load the VHF Radio Effect plugin in your audio workstation or DAW.**
@@ -28,8 +17,18 @@ Inspiration for real-time neural network processing was drawn from [RTNeural](ht
 The neural network model included in this project has been trained to learn the distortion characteristics of a VHF radio. It takes the dry voice signal as input and generates a distorted output signal that closely resembles the sound of a VHF radio.
 
 ## Sample Files
-- **Original Input:** [original.wav](original.wav)
-- **Processed Output:** [radiofx.wav](radiofx.wav)
+- **Original Input:** 
+  <audio controls>
+    <source src="original.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+  
+- **Processed Output:** 
+  <audio controls>
+    <source src="radiofx.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+
 
 ## User Interface
 ![User Interface](UI.png)
